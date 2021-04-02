@@ -18,6 +18,13 @@ header > div {
     width: 50%;
 }
 
+.nombre_taller {
+align-items:center;
+justify-content: center;
+display: flex;
+color: #0D2E4F;
+}
+
 .logo {
     width: 72px;
     margin-left: 20px;
