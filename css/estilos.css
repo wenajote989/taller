@@ -6,6 +6,8 @@
 
 body {
     background-color: #F3F9FF;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
 }
 header {
     width: 100%;
