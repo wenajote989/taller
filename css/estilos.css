@@ -14,7 +14,6 @@ header {
     height: 80px;
     background-color: #197AD4;
     display: flex;
-    transition: 0,8s;
 }
 
 header > div {
@@ -76,13 +75,13 @@ nav > ul > li > a {
 .productos .izquierda {
     float: left;
     margin-right: 15px;
-    height: 150px;
+    height: 120px;
     object-fit: cover;
     
 }
 
 .productos .producto .contenedor {           
-        margin: 20px auto;
+        margin: auto;
         background-color: #197AD4;
         color: #0D2E4F;
         padding: 15px;     
@@ -109,16 +108,20 @@ footer > .logo img {
 }
 
 .menu {
-width: 40px;
-height: 40px;
-margin-left: 20px;
-margin-top: 25px;
-display: flex;
+width: 50px;
+position: absolute;
+left: 20px;
+top: 20px;
 }
 
 /*MEDIA QUERIES*/
 
 @media (max-width: 1024px) {
+
+    .productos .producto {
+        width: 50%;
+    }
+
     .nombre_taller {
         align-items:center;
         justify-content: center;
@@ -131,18 +134,52 @@ display: flex;
             height: auto;
         }
 }
+.menu {
+    display: none;
+}
 
 @media (max-width: 480px) {
+
+    .productos .producto {
+        width: 100%;
+    }
+
     .nombre_taller {
-        align-items:center;
-        justify-content: center;
-        display: flex;
-        color: #0D2E4F;
-        font-size: small;
-        }
+        display: none;
+    }
 
     header {
+        flex-direction: column;
         height: auto;
-        overflow: hidden;
+    }
+
+    header > div {
+        width: 100%;
+    }
+
+    header .contenedor_logo {
+        justify-content: center;
+    }
+
+    header .logo {
+        margin-top: 10px;
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    nav > ul {
+        margin: 0;
+    }
+
+    nav > ul > li {
+        display: block;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .menu {
+        display: flex;
     }
 }
