@@ -5,10 +5,11 @@
 
 
 body {
-    background-color: #F3F9FF;
+    background-color: rgba(245, 245, 245, 0.877);
     font-family:Georgia, 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
 }
+
 header {
     width: 100%;
     height: 80px;
@@ -21,16 +22,32 @@ header > div {
 }
 
 .nombre_taller {
-align-items:center;
-justify-content: center;
-display: flex;
-color: #0D2E4F;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+}
+
+.nombre_taller h1 {
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.contenedor_logo {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
     width: 72px;
     margin-left: 20px;
 }
+
+.menu {
+    width: 50px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    }
 
 nav {
     display: flex;
@@ -41,6 +58,7 @@ nav {
 
 nav > ul {
     margin-right: 30px;
+    margin-top: 20px;
 }
 
 nav > ul > li {
@@ -49,14 +67,30 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-    color: #0D2E4F;
+    font-size: 20px;
+    color: whitesmoke;
     text-decoration: none;
 }
 
-.contenedor_logo {
-    display: flex;
-    align-items: center;
+.carrusel {
+    background: white;
+    margin-bottom: 30px;
+  }
+  
+.carrusel-slide {
+    width: 100%;
+    height: 400px;
+    margin-right: 10px;
+    background: white;
+    text-align: center;
 }
+
+.carrusel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 #contenido {
     width: 80%;
     margin: 10px auto;
@@ -104,15 +138,9 @@ footer > .logo img {
     width: 72px;
     height: 60px;
     margin-left: 3px;
-
 }
 
-.menu {
-width: 50px;
-position: absolute;
-left: 20px;
-top: 20px;
-}
+
 
 /*MEDIA QUERIES*/
 
