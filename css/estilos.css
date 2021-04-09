@@ -15,6 +15,7 @@ header {
     height: 80px;
     background-color: #197AD4;
     display: flex;
+    transition: all 0.8s;
 }
 
 header > div {
@@ -39,14 +40,15 @@ header > div {
 
 .logo {
     width: 72px;
-    margin-left: 20px;
+    margin-left: 80px;
 }
 
 .menu {
     width: 50px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
     position: absolute;
-    left: 20px;
-    top: 20px;
     }
 
 nav {
@@ -64,7 +66,10 @@ nav > ul {
 nav > ul > li {
     display: inline;
     margin-left: 5px;
+
 }
+
+
 
 nav > ul > li > a {
     font-size: 20px;
@@ -110,6 +115,35 @@ nav > ul > li > a {
     float: left;
     margin-right: 15px;
     height: 120px;
+    object-fit: cover;   
+}
+
+.galeria_atenciones{
+    width: 80%;
+    margin: 20px auto;
+    background-color:#197AD4;
+    color: whitesmoke;
+    padding: 15px;
+}
+.galeria_atenciones2{
+    width: 80%;
+    margin: 20px auto;
+    background-color:#197AD4;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.galeria_atenciones .izquierda2 {
+    float: left;
+    margin-right: 15px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.galeria_atenciones2 .derecha {
+    float: right;
+    margin-left: 15px;
+    height: 180px;
     object-fit: cover;
     
 }
@@ -162,9 +196,8 @@ footer > .logo img {
             height: auto;
         }
 }
-.menu {
-    display: none;
-}
+
+
 
 @media (max-width: 480px) {
 
@@ -179,6 +212,7 @@ footer > .logo img {
     header {
         flex-direction: column;
         height: auto;
+    
     }
 
     header > div {
@@ -193,6 +227,10 @@ footer > .logo img {
         margin-top: 10px;
     }
 
+    .logo {
+        margin-right: 70px;
+    }
+
     nav {
         justify-content: center;
     }
@@ -203,11 +241,8 @@ footer > .logo img {
 
     nav > ul > li {
         display: block;
-        padding: 5px;
+        padding: 1px;
         text-align: center;
     }
 
-    .menu {
-        display: flex;
-    }
 }
