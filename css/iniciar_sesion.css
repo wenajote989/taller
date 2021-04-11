@@ -1,5 +1,5 @@
 /* Inicio Sesion */
-.img_mecanico {
+.img_mecanico_inic {
     height: 420px;
     width: 48%;
     top: 20%;
@@ -7,7 +7,7 @@
     position: absolute;
 }
 
-.img_mecanico img {
+.img_mecanico_inic img {
     height: 100%;
     width: 100%;
     object-fit: cover;
