@@ -140,6 +140,155 @@ footer > .logo img {
     margin-left: 3px;
 }
 
+/* Submenus */
+.submenus {
+    width: 100%;
+    height: 600px;
+    padding: .5%;
+    margin-top: 10px;
+    background-color: #197AD4;
+}
+
+.submenu_mecanicos {
+    width: 49.5%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    float: left;
+}
+
+.plantilla1_mecanico {
+    width: 100%;
+    height: 20%;
+    background-color: #197AD4;
+    padding: 1%;
+}
+
+.plantilla1_mecanico img {
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    float: left;
+}
+
+.texto1_mec {
+    display: inline-block;
+    margin-left: 1%;
+    width: 58%;
+    height: 100%;
+    padding: 1%;
+    background-color: whitesmoke;
+}
+
+.boton1_mec {
+    width: 20%;
+    height: 100%;
+    float: right;
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+}
+
+.boton1_mec a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 25%;
+}
+
+.boton1_mec a:hover {
+    background-color: white;
+    color: #333;
+}
+
+.plantilla2_mecanico {
+    width: 100%;
+    height: 20%;
+    background-color: #197AD4;
+    padding: 1%;
+}
+
+.plantilla2_mecanico img {
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    float: right;
+}
+
+.texto2_mec {
+    display: inline-block;
+    margin-left: 1%;
+    width: 58%;
+    height: 100%;
+    padding: 1%;
+    background-color: whitesmoke;
+}
+
+.boton2_mec {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+}
+
+.boton2_mec a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 25%;
+}
+
+.boton2_mec a:hover {
+    background-color: white;
+    color: #333;
+}
+
+.submenu_categorias {
+    width: 49.5%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    float: right;
+}
+
+.categoria {
+    width: 100%;
+    height: 20%;
+    background-color: #197AD4;
+    padding: 1%;
+    text-align: center;
+}
+
+.categoria a {
+    display: inline-block;
+    font-size: 30px;
+    height: 100%;
+    width: 100%;
+    padding-top: 5%;
+    background-color: #333;
+    color: white;
+}
+
+.categoria a:hover {
+    background-color: white;
+    color: #333;
+}
+/* Fin Sumbenus */
+
 /* Inicio Sesion */
 .img_mecanico_inic {
     height: 420px;
@@ -204,7 +353,6 @@ footer > .logo img {
     outline: none;
     height: 30px;
 }
-
 /* Fin Iniciar Sesion *7
 
 /* Registrarse */
