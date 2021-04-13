@@ -117,6 +117,7 @@ nav > ul > li > a {
     height: 120px;
     object-fit: cover;   
 }
+/* GALERIA JJUUJ*/
 
 .galeria_atenciones{
     width: 80%;
@@ -132,22 +133,48 @@ nav > ul > li > a {
     color: whitesmoke;
     padding: 15px;
 }
+.galeria_atenciones3{
+    width: 80%;
+    margin: 20px auto;
+    background-color:#197AD4;
+    color: whitesmoke;
+    padding: 15px;
+}
+.galeria_atenciones4{
+    width: 80%;
+    margin: 20px auto;
+    background-color:#197AD4;
+    color: whitesmoke;
+    padding: 15px;
+}
 
 .galeria_atenciones .izquierda2 {
     float: left;
     margin-right: 15px;
-    height: 180px;
+    height: 150px;
     object-fit: cover;
 }
 
 .galeria_atenciones2 .derecha {
     float: right;
     margin-left: 15px;
-    height: 180px;
+    height: 150px;
+    object-fit: cover; 
+}
+.galeria_atenciones3 .izquierda3 {
+    float: left;
+    margin-right: 15px;
+    height: 150px;
     object-fit: cover;
-    
 }
 
+.galeria_atenciones4 .derecha2 {
+    float: right;
+    margin-left: 15px;
+    height: 150px;
+    object-fit: cover; 
+}
+/*Fin Galeria */
 .productos .producto .contenedor {           
         margin: auto;
         background-color: #197AD4;
@@ -219,7 +246,7 @@ footer > .logo img {
     width: 20%;
     height: 100%;
     float: right;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.4);
     overflow: hidden;
     text-align: center;
 }
@@ -268,7 +295,7 @@ footer > .logo img {
     width: 20%;
     height: 100%;
     float: left;
-    background-color: #333;
+    background-color: rgba(0, 0, 0, 0.4);
     overflow: hidden;
     text-align: center;
 }
@@ -454,6 +481,9 @@ footer > .logo img {
     height: 30px;
 }
 
+.menu {
+    display: none;
+}
 /* Fin Regristrarse */
 
 
@@ -466,11 +496,7 @@ footer > .logo img {
     }
 
     .nombre_taller {
-        align-items:center;
-        justify-content: center;
-        display: flex;
-        color: #0D2E4F;
-        font-size: small;
+        display: none;
         }
 
         header {
@@ -493,7 +519,7 @@ footer > .logo img {
     header {
         flex-direction: column;
         height: auto;
-    
+        overflow: hidden;
     }
 
     header > div {
@@ -524,6 +550,10 @@ footer > .logo img {
         display: block;
         padding: 1px;
         text-align: center;
+    }
+
+    .menu {
+        display: block;
     }
 
 }
