@@ -13,7 +13,7 @@ body {
 header {
     width: 100%;
     height: 80px;
-    background-color: #197AD4;
+    background-color: rgba(30, 144, 255, 1);
     display: flex;
     transition: all 0.8s;
 }
@@ -76,26 +76,38 @@ nav > ul > li > a {
     color: whitesmoke;
     text-decoration: none;
 }
+/*CARRUSEL NO SE Q
+       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/autoazul.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+*/
 
-.carrusel {
-    background: white;
-    margin-bottom: 30px;
-  }
-  
-.carrusel-slide {
-    width: 100%;
-    height: 400px;
-    margin-right: 10px;
-    background: white;
-    text-align: center;
+#contenido {
+    width: 60%;
+    margin: 10px auto;
+    min-height: 100vh;
+} 
+
+.carousel .carousel-inner .carousel-item img {
+    height: 500px;
+    width: 100px;
+    background-image: none;
 }
 
-.carrusel-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+.carousel .carousel-inner .carousel-item .carousel-caption {
+    color: black;
 }
 
+
+
+/*FIN CARRUSEL*/
 #contenido {
     width: 80%;
     margin: 10px auto;
@@ -122,28 +134,28 @@ nav > ul > li > a {
 .galeria_atenciones{
     width: 80%;
     margin: 20px auto;
-    background-color:#197AD4;
+    background-color: rgba(30, 144, 255, 1);
     color: whitesmoke;
     padding: 15px;
 }
 .galeria_atenciones2{
     width: 80%;
     margin: 20px auto;
-    background-color:#197AD4;
+    background-color: rgba(30, 144, 255, 1);
     color: whitesmoke;
     padding: 15px;
 }
 .galeria_atenciones3{
     width: 80%;
     margin: 20px auto;
-    background-color:#197AD4;
+    background-color: rgba(30, 144, 255, 1);
     color: whitesmoke;
     padding: 15px;
 }
 .galeria_atenciones4{
     width: 80%;
     margin: 20px auto;
-    background-color:#197AD4;
+    background-color: rgba(30, 144, 255, 1);
     color: whitesmoke;
     padding: 15px;
 }
