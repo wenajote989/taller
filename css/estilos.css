@@ -90,19 +90,19 @@ nav > ul > li > a {
 */
 
 #contenido {
-    width: 60%;
+    width: 80%;
     margin: 10px auto;
     min-height: 100vh;
 } 
 
 .carousel .carousel-inner .carousel-item img {
     height: 500px;
-    width: 100px;
+    width: 100%;
     background-image: none;
 }
 
 .carousel .carousel-inner .carousel-item .carousel-caption {
-    color: black;
+    color: white;
 }
 
 
