@@ -111,6 +111,7 @@ nav > ul > li > a {
 
 .productos .producto {
     width: 100%;
+    padding: 10px
 }
 
 .productos .izquierda {
@@ -210,7 +211,7 @@ footer > .logo img {
 /* Submenus */
 .submenus {
     width: 100%;
-    height: 600px;
+    height: 300px;
     padding: .5%;
     margin-top: 10px;
     background-color: #197AD4;
@@ -227,7 +228,7 @@ footer > .logo img {
 
 .plantilla1_mecanico {
     width: 100%;
-    height: 20%;
+    height: 33.3%;
     background-color: #197AD4;
     padding: 1%;
 }
@@ -276,7 +277,7 @@ footer > .logo img {
 
 .plantilla2_mecanico {
     width: 100%;
-    height: 20%;
+    height: 33.3%;
     background-color: #197AD4;
     padding: 1%;
 }
@@ -334,7 +335,7 @@ footer > .logo img {
 
 .categoria {
     width: 100%;
-    height: 20%;
+    height: 33.3%;
     background-color: #197AD4;
     padding: 1%;
     text-align: center;
@@ -553,7 +554,8 @@ footer > .logo img {
 @media (max-width: 1024px) {
 
     .productos .producto {
-        width: 50%;
+        width: 100%;
+        
     }
 
     .nombre_taller {
@@ -582,6 +584,20 @@ footer > .logo img {
 
     .img_mecanico_reg {
         width: 0%;
+    }
+
+    .submenu_mecanicos {
+        width: 100%;
+        height: 50%;
+    }
+
+    .submenu_categorias {
+        width: 100%;
+        height: 50%;
+    }
+
+    .submenus {
+        height: 600px;
     }
 }
 
