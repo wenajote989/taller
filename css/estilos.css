@@ -583,6 +583,20 @@ footer > .logo img {
     .img_mecanico_reg {
         width: 0%;
     }
+
+    .submenu_mecanicos {
+        width: 100%;
+        height: 50%;
+    }
+
+    .submenu_categorias {
+        width: 100%;
+        height: 50%;
+    }
+
+    .submenus {
+        height: 600px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -653,5 +667,19 @@ footer > .logo img {
 
     .img_mecanico_reg {
         width: 0%;
+    }
+
+    .submenu_mecanicos {
+        width: 100%;
+        height: 50%;
+    }
+
+    .submenu_categorias {
+        width: 100%;
+        height: 50%;
+    }
+
+    .submenus {
+        width: 600px;
     }
 }
