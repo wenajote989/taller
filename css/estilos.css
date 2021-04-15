@@ -364,15 +364,15 @@ footer > .logo img {
 /* Inicio Sesion */
 .img_mecanico_inic {
     height: 420px;
-    width: 100%;
+    width: 80%;
     top: 20%;
     left: 10%;
     position: absolute;
 }
     
 .img_mecanico_inic img {
-    height: 92%;
-    width: 48%;
+    height: 94%;
+    width: 63%;
     object-fit: cover;
 }
 
@@ -382,7 +382,7 @@ footer > .logo img {
     background: #197AD4;
     color: white;
     top: 20%;
-    left: 60%;
+    left: 62%;
     position: absolute;
     padding: 70px 30px;
     box-sizing: border-box;
